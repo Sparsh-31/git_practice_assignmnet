@@ -1,19 +1,14 @@
-let num = [15,13,7,4,23];
-for(let i=0;i<num;i++)
-{
-  for(let j=1;j<=num;j++)
-  {
-   if(num[i]%j==0)  
-   {
-    count++;
-   }
-  }
- if(count==2)
- {
-  console.log(num[i],'Yes');
- }
- else
- {
-  console.log(num[i],'No');
- }
-}
+let num = 7;
+let count = 0;
+    for(let i =1; i<=num; i++){
+        
+        if(num%i==0){
+            count++;
+        }
+    }
+    
+    if(count==2){
+        console.log(num,"-","Yes");
+    } else {
+        console.log(num,"-","No");
+    }
